@@ -8,4 +8,3 @@ navegacion.addEventListener('click', e=>{
 	if(e.target.matches('.navegacion-link')) btnMenu.checked = false;
 })
 
-

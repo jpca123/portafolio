@@ -3,23 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="rgb(6, 115, 179)">
 
     <title>Portafolio Juan Pablo Castillo</title>
-
-    <!-- Etiquetas para SEO -->
-
-    <meta name="theme-color" content="rgb(6, 115, 179)">
-    <meta name="description" content="Portafolio Profesional Juan Pablo Castillo Desarrollador Web">
-
-    <!-- Protocolo Open Graph -->
-    <meta property="og:title" content="Portafolio Juan Pablo Castillo">
-    <meta property="og:description" content="Portafolio Profesional Juan Pablo Castillo Desarrollador Web">
-    <meta property="og:image" content="https://jpca123.github.io/portafolio/assets/Fondo_JS.png">
-    <meta property="og:url" content="https://jpca123.github.io/portafolio/">
-
-
-
-    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,6 +22,7 @@
   </head>
 
   <body>
+    <!-- Barra de Navegacion y Titulo -->
     <header class="header" id="header">
       <a href="/" class="header-logo">Portafolio</a>
 
@@ -53,6 +40,7 @@
     </header>
 
     <main>
+      <!-- Imagen de Bienvenida, boton de link a Linkeding -->
       <section class="hero-section" id="inicio">
         <article class="hero-container">
           <aside class="hero-text">
@@ -62,6 +50,7 @@
         </article>
       </section>
 
+      <!-- Presentacion, y barras de habilidad -->
       <section class="section habilitys" id="acerca">
         <article class="habilitys-info hability-section">
           <h3 class="title-2">Juan Pablo Castillo</h3>
@@ -100,7 +89,7 @@
         <article class="hability-section">
           <h3 class="title-2">Habilidades</h3>
           <div class="hability-container">
-            <p><span>Html, Css y Javascript</span><b>100%</b></p>
+            <p><span>Maquetación Web</span><b>100%</b></p>
             <progress
               class="hability-progress"
               min="0"
@@ -110,7 +99,7 @@
           </div>
 
           <div class="hability-container">
-            <p><span>Responsive Design</span><b>90%</b></p>
+            <p><span>Responsive Design</span><b>100%</b></p>
             <progress
               class="hability-progress"
               min="0"
@@ -137,7 +126,25 @@
             ></progress>
           </div>
           <div class="hability-container">
-            <p><span>Back-end Django</span><b>70%</b></p>
+            <p><span>Bases de Datos</span><b>80%</b></p>
+            <progress
+              class="hability-progress"
+              min="0"
+              max="100"
+              value="70"
+            ></progress>
+          </div>
+          <div class="hability-container">
+            <p><span>Back-end Django</span><b>80%</b></p>
+            <progress
+              class="hability-progress"
+              min="0"
+              max="100"
+              value="70"
+            ></progress>
+          </div>
+          <div class="hability-container">
+            <p><span>API Rest con Django</span><b>50%</b></p>
             <progress
               class="hability-progress"
               min="0"
@@ -148,6 +155,7 @@
         </article>
       </section>
 
+      <!-- Lista de servicios a ofrecer -->
       <section class="section services" id="servicios">
         <h2 class="section-title">Te puedo ofrecer</h2>
         <section class="services-container">
@@ -155,68 +163,57 @@
             <span class="big-icon services-icon material-icons">
               fast_forward
             </span>
-            <h3 class="title-2">Servicio 1</h3>
+            <h3 class="title-2">Landing Page</h3>
             <p class="text">
-              Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Aliquid
-              inventore soluta, magni eos deleniti tempora, incidunt tenetur
-              impedit repellendus quod.
+              Perfecto para dar a conocer tu CV en un medio digital, las páginas web son dinamicas y de facil acceso, le daran estilo a tu curriculum.
             </p>
           </article>
           <article class="services">
             <span class="big-icon services-icon material-icons">
               settings
             </span>
-            <h3 class="title-2">Servicio 2</h3>
+            <h3 class="title-2">Personalización</h3>
             <p class="text">
-              Aspernatur voluptates impedit, velit neque, sequi officia at,
-              tempore dolorem earum, porro ullam ab. Assumenda dicta nemo esse
-              voluptatibus at?
+              Tu eliges la identidad que quires en tu pagina ya sea colores, estilos, diseños e información, proyectas tu mejor versión.
             </p>
           </article>
           <article class="services">
             <span class="big-icon services-icon material-icons"> lock </span>
-            <h3 class="title-2">Servicio 3</h3>
+            <h3 class="title-2">Seguridad</h3>
             <p class="text">
-              Deserunt amet repellat quisquam eos, mollitia voluptatum
-              cupiditate doloremque, voluptas et. Voluptates soluta possimus
-              error cum fuga explicabo obcaecati deleniti.
+              Practicas de desarrollo solidas y aprobadas, con uso eficiente de criptografia y validación de tokens de sesion que hace que tu sitio sea seguro.
             </p>
           </article>
           <article class="services">
             <span class="big-icon services-icon material-icons">
-              favorite
+              square
             </span>
-            <h3 class="title-2">Servicio 4</h3>
+            <h3 class="title-2">Nuevo</h3>
             <p class="text">
-              Architecto necessitatibus sequi velit, quisquam deleniti sit,
-              itaque, earum iure praesentium dolores voluptatibus animi. Culpa
-              harum, vitae molestias saepe tempore.
+              Programación moderna y sostenible para que tu proyecto se mantenga en el tiempo.
             </p>
           </article>
-          <article class="services">
+          <!-- <article class="services">
             <span class="big-icon services-icon material-icons">
               favorite
             </span>
-            <h3 class="title-2">Servicio 5</h3>
+            <h3 class="title-2">Herramientas</h3>
             <p class="text">
-              Nihil architecto consectetur natus, voluptate, aspernatur nam ab
-              sed necessitatibus illo optio placeat eaque culpa, laborum totam
-              eos iusto velit?
+              
             </p>
-          </article>
+          </article> -->
           <article class="services">
             <span class="big-icon services-icon material-icons"> timer </span>
 
-            <h3 class="title-2">Servicio 6</h3>
+            <h3 class="title-2">Velocidad</h3>
             <p class="text">
-              Natus sapiente, repellat hic officiis pariatur inventore deleniti
-              cupiditate perferendis quisquam rerum quis facere ipsa fugit, qui
-              magni earum libero?
+              Tiempos de respuesta cortos y que aprueban las pruebas de velocidad de respuesta de google.
             </p>
           </article>
         </section>
       </section>
 
+      <!-- Proyectos Realizados -->
       <section class="section works" id="trabajos">
         <h2 class="section-title">Mis Trabajos</h2>
 
@@ -224,10 +221,9 @@
           <article class="work-container">
             <aside class="work-sub-container">
               <section class="work">
-                <h3 class="title-2">Trabajo 1</h3>
+                <h3 class="title-2">Landing Pages</h3>
                 <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Dolorem, fugit. Architecto, in.
+                  Perfecto para dar a conocer tu CV en un medio digital, las painas web son dinamicas y de facil acceso
                 </p>
                 <a
                   href="/"
@@ -332,6 +328,7 @@
         </section>
       </section>
 
+      <!-- Opiniones de los proyectos -->
       <section class="section" id="testimonios">
         <h2 class="section-title">Dicen de mi trabajo</h2>
 
@@ -426,6 +423,7 @@
         </section>
       </section>
 
+      <!-- Contacto -->
       <section class="section contact" id="contacto">
         <h2 class="section-title">Contacto</h2>
 
@@ -504,10 +502,11 @@
       </section>
     </main>
 
+    <!-- Fin de la pagina -->
     <footer class="footer">
       <p class="footer-info">Diseñado por : Juan Pablo Castillo</p>
     </footer>
 
-  </body>
     <script src="script.js"></script>
+  </body>
 </html>
