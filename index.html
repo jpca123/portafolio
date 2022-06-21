@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="icon" href="assets/programming.ico">
 
     <!-- mi hoja de estilos -->
     <link rel="stylesheet" href="style.css" />
@@ -34,7 +35,6 @@
         <a href="#acerca" class="navegacion-link">Acerca</a>
         <a href="#servicios" class="navegacion-link">Servicios</a>
         <a href="#trabajos" class="navegacion-link">trabajos</a>
-        <a href="#testimonios" class="navegacion-link">Testimonios</a>
         <a href="#contacto" class="navegacion-link">Contacto</a>
       </nav>
     </header>
@@ -45,7 +45,7 @@
         <article class="hero-container">
           <aside class="hero-text">
             <h1>Juan Pablo<wbr /> Castillo</h1>
-            <a href="#formulario-contacto" class="btn">Contáctame</a>
+            <a href="https://www.linkedin.com/in/juan-pablo-castillo-acosta" target="_blank" class="btn">Contáctame</a>
           </aside>
         </article>
       </section>
@@ -80,7 +80,7 @@
         <article class="hability-section">
           <img
             class="habilitys-photo"
-            src="assets/Fondo_JS.png"
+            src="assets/perfil.jpg"
             alt="Juan Pablo"
             title="Juan Pablo Castillo"
           />
@@ -218,15 +218,15 @@
         <h2 class="section-title">Mis Trabajos</h2>
 
         <section class="works-container">
-          <article class="work-container">
+          <article class="work-container" style="--work-image: url('assets/proyecto1.png');">
             <aside class="work-sub-container">
               <section class="work">
-                <h3 class="title-2">Landing Pages</h3>
+                <h3 class="title-2">Sitio de estadistica Basica</h3>
                 <p class="text">
-                  Perfecto para dar a conocer tu CV en un medio digital, las painas web son dinamicas y de facil acceso
+                  Este sitio crea una tabla de frecuencia basado en una lista de datos numericos que tu le especificas
                 </p>
                 <a
-                  href="/"
+                  href="https://jpca123.github.io/estadistica/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="work-link btn"
@@ -235,16 +235,15 @@
               </section>
             </aside>
           </article>
-          <article class="work-container">
+          <article class="work-container" style="--work-image: url('assets/proyecto2.png');">
             <aside class="work-sub-container">
               <section class="work">
-                <h3 class="title-2">Trabajo 2</h3>
+                <h3 class="title-2">Zoom en imagenes</h3>
                 <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Dolorem, fugit. Architecto, in.
+                  Permite hacer zoom en imagenes para ver a mayor detalle, permite modificar la escala y la posición
                 </p>
                 <a
-                  href="/"
+                  href="https://jpca123.github.io/zoom/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="work-link btn"
@@ -253,16 +252,15 @@
               </section>
             </aside>
           </article>
-          <article class="work-container">
+          <article class="work-container" style="--work-image: url('assets/proyecto3.png');">
             <aside class="work-sub-container">
               <section class="work">
-                <h3 class="title-2">Trabajo 3</h3>
+                <h3 class="title-2">Agenda de tareas</h3>
                 <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Dolorem, fugit. Architecto, in.
+                  Almacena informacion en tu pc para ayudarte a recordar tareas pendientes, usa la tecnologia de indexed db
                 </p>
                 <a
-                  href="/"
+                  href="https://jpca123.github.io/tareas/index.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="work-link btn"
@@ -271,155 +269,6 @@
               </section>
             </aside>
           </article>
-          <article class="work-container">
-            <aside class="work-sub-container">
-              <section class="work">
-                <h3 class="title-2">Trabajo 4</h3>
-                <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Dolorem, fugit. Architecto, in.
-                </p>
-                <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="work-link btn"
-                  >Visitar</a
-                >
-              </section>
-            </aside>
-          </article>
-          <article class="work-container">
-            <aside class="work-sub-container">
-              <section class="work">
-                <h3 class="title-2">Trabajo 5</h3>
-                <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Dolorem, fugit. Architecto, in.
-                </p>
-                <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="work-link btn"
-                  >Visitar</a
-                >
-              </section>
-            </aside>
-          </article>
-          <article class="work-container">
-            <aside class="work-sub-container">
-              <section class="work">
-                <h3 class="title-2">Trabajo 6</h3>
-                <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Dolorem, fugit. Architecto, in.
-                </p>
-                <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="work-link btn"
-                  >Visitar</a
-                >
-              </section>
-            </aside>
-          </article>
-        </section>
-      </section>
-
-      <!-- Opiniones de los proyectos -->
-      <section class="section" id="testimonios">
-        <h2 class="section-title">Dicen de mi trabajo</h2>
-
-        <section class="testimonys">
-          <input
-            type="radio"
-            checked="true"
-            name="testimony-visible"
-            class="testimony-controls-input"
-            id="testimony-1"
-          />
-          <input
-            type="radio"
-            name="testimony-visible"
-            class="testimony-controls-input"
-            id="testimony-2"
-          />
-          <input
-            type="radio"
-            name="testimony-visible"
-            class="testimony-controls-input"
-            id="testimony-3"
-          />
-          <input
-            type="radio"
-            name="testimony-visible"
-            class="testimony-controls-input"
-            id="testimony-4"
-          />
-
-          <section class="testimonys-container">
-            <article class="testimony">
-              <img
-                src="assets/Fondo_JS.png"
-                alt="Persona"
-                class="testimony-img"
-              />
-              <blockquote class="text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
-                nostrum, exercitationem. Illo autem iure cupiditate!
-              </blockquote>
-              <p class="title-2">Pepito Pérez</p>
-              <small class="testimony-work">Director Lorem, ipsum.</small>
-            </article>
-            <article class="testimony">
-              <img
-                src="assets/Fondo_JS.png"
-                alt="Persona"
-                class="testimony-img"
-              />
-              <blockquote class="text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
-                nostrum, exercitationem. Illo autem iure cupiditate!
-              </blockquote>
-              <p class="title-2">Pepito Pérez</p>
-              <small class="testimony-work">Director Lorem, ipsum.</small>
-            </article>
-            <article class="testimony">
-              <img
-                src="assets/Fondo_JS.png"
-                alt="Persona"
-                class="testimony-img"
-              />
-              <blockquote class="text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
-                nostrum, exercitationem. Illo autem iure cupiditate!
-              </blockquote>
-              <p class="title-2">Pepito Pérez</p>
-              <small class="testimony-work">Director Lorem, ipsum.</small>
-            </article>
-            <article class="testimony">
-              <img
-                src="assets/Fondo_JS.png"
-                alt="Persona"
-                class="testimony-img"
-              />
-              <blockquote class="text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
-                nostrum, exercitationem. Illo autem iure cupiditate!
-              </blockquote>
-              <p class="title-2">Pepito Pérez</p>
-              <small class="testimony-work">Director Lorem, ipsum.</small>
-            </article>
-          </section>
-
-          <aside class="testimony-controls">
-            <label for="testimony-1" class="testimony-controls-label"></label>
-            <label for="testimony-2" class="testimony-controls-label"></label>
-            <label for="testimony-3" class="testimony-controls-label"></label>
-            <label for="testimony-4" class="testimony-controls-label"></label>
-          </aside>
         </section>
       </section>
 
@@ -430,42 +279,38 @@
         <section class="contact-cards">
           <article class="contact-card">
             <span class="big-icon services-icon material-icons">
-                home
+                tag
               </span>
-            <h3 class="title-2">Card 1</h3>
+            <h3 class="title-2">Instagram</h3>
             <p class="text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Repellat, autem!
+              <a href="https://www.instagram.com/juanpablocastillo123/" rel="noopener" target="_blank" class="contact-card-link">Perfil instagram</a>
             </p>
           </article>
           <article class="contact-card">
             <span class="big-icon services-icon material-icons">
                 contact_mail
               </span>
-            <h3 class="title-2">Card 2</h3>
+            <h3 class="title-2">Email</h3>
             <p class="text">
-              Veniam nesciunt eveniet iure maxime exercitationem! Sed nulla
-              repudiandae exercitationem.
+              <a href="mailto:jpca123555@gmail.com" rel="noopener" target="_blank" class="contact-card-link">Correo Electronico</a>
             </p>
           </article>
           <article class="contact-card">
             <span class="big-icon services-icon material-icons">
                 telegram
               </span>
-            <h3 class="title-2">Card 3</h3>
+            <h3 class="title-2">Telegram</h3>
             <p class="text">
-              Dignissimos a quo nihil quisquam cumque maxime est inventore
-              natus.
+              <a href="https://t.me/Juan_Pablo_Castillo" class="contact-card-link">Chat telegram</a>
             </p>
           </article>
           <article class="contact-card">
             <span class="big-icon services-icon material-icons">
-                place
+                work
               </span>
-            <h3 class="title-2">Card 4</h3>
+            <h3 class="title-2">Linkeding</h3>
             <p class="text">
-              Ad modi consequatur quae voluptatibus tempore provident, possimus
-              ex fugiat?
+              <a href="https://www.linkedin.com/in/juan-pablo-castillo-acosta" rel="noopener" target="_blank" class="contact-card-link">Juan Pablo Castillo</a>
             </p>
           </article>
         </section>
