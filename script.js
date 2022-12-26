@@ -11,7 +11,7 @@ navegacion.addEventListener('click', e=>{
 //scrollSpy
 let sections = Array.from(document.querySelectorAll("section[data-scroll-spy]"));
 
-let options = {threshold: [0.5]}
+let options = {threshold: [0.3]}
 
 let scrollSpy = new IntersectionObserver((entries)=>{
 

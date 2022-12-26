@@ -440,7 +440,8 @@
       cursor: pointer;
     }
     .navegacion-link-active{
-      color: var(--dark-color);
+      text-transform: uppercase;
+      text-shadow: .1em .1em .2em var(--dark-color) ;
     }
     .navegacion-link:hover{
       border-bottom: thin solid;
@@ -477,7 +478,6 @@
       }
       .navegacion-link:hover, .navegacion-link-active{
           background-color: var(--primary-color);
-          color: var(--dark-color);
           border: none;
       }
     
