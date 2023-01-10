@@ -128,8 +128,9 @@
   }
 
   .section{
+    max-width: 1600px;
     padding: 4em 1em 2em;
-    margin: 2em 0;
+    margin: 2em auto;
   }
   .section-title{
     display: block;
@@ -182,9 +183,6 @@
       padding: 2em .5em .5em;
       margin: 0;
     }
-    .title-2, .section-title{
-      margin: 0 auto;
-    }
   }
   @media screen and (max-width: 500px){
     html{
@@ -201,21 +199,19 @@
     }
     .contact-cards{
       display: grid;
-      max-width: 50em;
       justify-content: space-around;
-      grid-template-columns: repeat(2, 1fr);
-      width: 90%;
+      grid-template-columns: repeat(4, 1fr);
       margin: 0 auto;
       gap: 1em;
     
     }
     .contact-card{
       display: block;
-      width: 100%;
-      padding: 1em;
+      padding: 1em 2em;
       text-align: center;
       box-shadow: 0 0 .5em var(--dark-color-alpha);
       margin: 1em auto;
+      width: min(20em, 90%);
       border-radius: 5px;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -227,9 +223,16 @@
       cursor: pointer;
 
     }
-    @media screen and (max-width:700px){
+    @media screen and (max-width:800px){
       .contact-cards{
-          grid-template-columns: 80%;
+          grid-template-columns: repeat(2, 1fr);
+          margin: 1em 0;
+      }
+    }
+    @media screen and (max-width:500px){
+      .contact-cards{
+          grid-template-columns: 1fr;
+          margin: 1em 0;
       }
     }
     
@@ -313,7 +316,7 @@
     .hability-section{
       flex: 0 0 32%;
       padding: .5em;
-      margin-bottom: 2em;
+      margin-bottom: 1em;
       text-align: center;
     }
     .hability-container{
@@ -342,14 +345,8 @@
       text-align: center;
       line-height: 1.5;
     }
-    .habilitys-photo{
-      display: block;
-      width: 100%;
-      margin: auto;
-      filter: grayscale(1);
-    }
-    
-    @media screen and (max-width: 1024px){
+       
+    @media screen and (max-width: 900px){
       .habilitys{
           grid-template-columns: 100%;
       }
@@ -439,12 +436,8 @@
       text-align: center;
       cursor: pointer;
     }
-    .navegacion-link-active{
-      text-transform: uppercase;
-      text-shadow: .1em .1em .2em var(--dark-color) ;
-    }
     .navegacion-link:hover{
-      border-bottom: thin solid;
+      color: var(--dark-color);
     }
     .navegacion-input,
     .navegacion-btn{
@@ -476,8 +469,9 @@
           padding: 1em;
           transition: color .1s linear, background-color .1s linear;
       }
-      .navegacion-link:hover, .navegacion-link-active{
+      .navegacion-link:hover{
           background-color: var(--primary-color);
+          color: unset;
           border: none;
       }
     
@@ -566,12 +560,12 @@
         line-height: 1.5;
       }
       
-      @media screen and (max-width: 1024px){
+      @media screen and (max-width: 1000px){
         .services-container{
             grid-template-columns: repeat(2, 1fr);
         }
       }
-      @media screen and (max-width: 700px){
+      @media screen and (max-width: 600px){
         .services-container{
             grid-template-columns: repeat(1, 90%);
         }
@@ -582,7 +576,6 @@
       position: relative;
       display: block;
       width: 60%;
-      max-width: 900px;
       height: auto;
       margin: 3em auto 2em;
       padding: 2em 0 3em;
@@ -715,7 +708,8 @@
     .work-container{
       --work-image: url('assets/hero-image.jpeg');
       display: block;
-      width: 100%;
+      width: min(100%, 20em);
+      margin: 1em auto;
       background-image: var(--work-image);
       background-size: cover;
       background-position: center;
@@ -757,15 +751,16 @@
     }
     .works .title-2{
       color: inherit;
+      margin-bottom: 0;
     }
     
-    @media screen and (max-width:1024px){
+    @media screen and (max-width:900px){
       .works-container{
           grid-template-columns: repeat(2, 45%);
       }
     }
     
-    @media screen and (max-width:700px){
+    @media screen and (max-width:600px){
       .works-container{
           grid-template-columns: repeat(1, 80%);
       }
@@ -773,15 +768,17 @@
         position: relative;
         background-image: none;
         display: grid;
+        width: min(100%, 30em);
         grid-template-columns: 1fr;
         grid-template-rows: auto, auto;
         aspect-ratio: unset;
+        padding: 1em 0;
       }
       .work-container::before{
         content: "";
         display: block;
         margin: .5em auto;
-        aspect-ratio: 3/2;
+        aspect-ratio: 5/3;
         background-image: var(--work-image);
         width: 60%;      
         background-color: none;

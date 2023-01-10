@@ -45,7 +45,7 @@
         <article class="hero-container">
           <aside class="hero-text">
             <h1>Juan Pablo<wbr /> Castillo</h1>
-            <a href="https://www.linkedin.com/in/juan-pablo-castillo-acosta" target="_blank" class="btn">Contáctame</a>
+            <a href="#contacto" class="btn">Contáctame</a>
           </aside>
         </article>
       </section>
@@ -160,7 +160,7 @@
             <span class="big-icon services-icon material-icons"> lock </span>
             <h3 class="title-2">Seguridad</h3>
             <p class="text">
-              Practicas de desarrollo solidas y aprobadas, con uso eficiente de criptografia, validación de tokens y mas tecnicas que hacen que tu sitio sea seguro.
+              Practicas de desarrollo solidas y aprobadas con validación de datos y mas tecnicas que hacen que tu sitio sea seguro.
             </p>
           </article>
           <article class="services">
@@ -169,7 +169,7 @@
             </span>
             <h3 class="title-2">Nuevo</h3>
             <p class="text">
-              Programación moderna y sostenible para que tu proyecto se mantenga en el tiempo con tecnologías eficientes y estables que requieren poco mantenimiento y son muy eficientes.
+              Programación moderna y sostenible para que tu proyecto se mantenga en el tiempo con tecnologías eficientes.
             </p>
           </article>
          
@@ -178,7 +178,7 @@
 
             <h3 class="title-2">Manejo de API Rest</h3>
             <p class="text">
-              Contrucción de API Rest para capas de informacion y creación de micro servicios para funcionalidades extra como envio de correo electronicos, SMS entre otros,
+              Contrucción de API Rest y micro servicios para funcionalidades extra como envio de correo electronicos, SMS entre otros.
             </p>
           </article>
         </section>
@@ -286,10 +286,10 @@
           </article>
         </section>
 
-        <form action="https://formsubmit.co/poledic168@ktasy.com" method="POST" class="contact-form" id="formulario-contacto">
+        <form action="https://formsubmit.co/jpca123555@gmail.com" method="POST" class="contact-form" id="formulario-contacto">
           <h3 class="contact-form-title">Contactame</h3>
-          
-
+          <input type="hidden" name="_subject" value="Mensaje Portafolio Web">
+          <input type="hidden" name="_next" value="https://jpca123.github.io/portafolio">
           <input
             name="nombre"
             type="text"
@@ -297,12 +297,14 @@
             placeholder="Ingresa tu nombre"
             maxlength="80"
             minlength="3"
+            required
           />
           <input
             name="correo"
             type="email"
             class="contact-form-input"
             placeholder="Ingresa tu correo"
+            required
           />
 
           <textarea
@@ -311,6 +313,9 @@
             rows="10"
             class="contact-form-input contact-message"
             placeholder="Deja tus comentarios"
+            minlength="5"
+            maxlength="500"
+            required
           ></textarea>
 
           <button class="btn">Enviar Mensaje</button>
