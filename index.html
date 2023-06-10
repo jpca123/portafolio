@@ -1,368 +1,322 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="rgb(6, 115, 179)">
 
-    <title>Portafolio Juan Pablo Castillo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="assets/programming.ico">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(6, 115, 179)">
 
-    <!-- mi hoja de estilos -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <title>Portafolio Juan Pablo Castillo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="icon" href="assets/programming.ico">
 
-  <body>
-    <!-- Barra de Navegacion y Titulo -->
-    <header class="header" id="header">
-      <a href="/" class="header-logo">Portafolio</a>
+  <!-- mi hoja de estilos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <input type="checkbox" class="navegacion-input" />
-      <button class="navegacion-btn"></button>
+<body>
+  <!-- Barra de Navegacion y Titulo -->
+  <header class="header" id="header">
+    <a href="/" class="header-logo">Portafolio</a>
 
-      <nav class="navegacion">
-        <a href="#inicio" class="navegacion-link">Inicio</a>
-        <a href="#acerca" class="navegacion-link">Acerca</a>
-        <a href="#servicios" class="navegacion-link">Servicios</a>
-        <a href="#trabajos" class="navegacion-link">trabajos</a>
-        <a href="#contacto" class="navegacion-link">Contacto</a>
-      </nav>
-    </header>
+    <input type="checkbox" class="navegacion-input" />
+    <button class="navegacion-btn"></button>
 
-    <main>
-      <!-- Imagen de Bienvenida, boton de link a Linkeding -->
-      <section class="hero-section" id="inicio" data-scroll-spy>
-        <article class="hero-container">
-          <aside class="hero-text">
-            <h1>Juan Pablo<wbr /> Castillo</h1>
-            <a href="#contacto" class="btn">Contáctame</a>
+    <nav class="navegacion">
+      <a href="#inicio" class="navegacion-link">Inicio</a>
+      <a href="#acerca" class="navegacion-link">Acerca</a>
+      <a href="#servicios" class="navegacion-link">Servicios</a>
+      <a href="#trabajos" class="navegacion-link">trabajos</a>
+      <a href="#contacto" class="navegacion-link">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Imagen de Bienvenida, boton de link a Linkeding -->
+    <section class="hero-section" id="inicio">
+      <article class="hero-container">
+        <aside class="hero-text">
+          <h1>Juan Pablo<wbr /> Castillo</h1>
+          <a href="#contacto" class="btn">Contáctame</a>
+        </aside>
+      </article>
+    </section>
+
+    <!-- Presentacion, y barras de habilidad -->
+    <section class="section habilitys" id="acerca">
+      <article class="habilitys-info hability-section">
+        <h3 class="title-2">Juan Pablo Castillo</h3>
+        <h4 class="hability-info-slogan">
+          <strong>Desarrollador web</strong>
+        </h4>
+
+        <p class="text">
+          Mi nombre es <strong>Juan Pablo Castillo</strong> soy estudiante
+          de programación y desarrollor web, amante de la
+          tecnología como el brazo derecho de la evolución de la humanidad y
+          herramienta al servicio de las personas.
+        </p>
+        <p class="text">
+          Me especializo en desarrollo web en el lado del back-end principalmente, contruyendo sistemas de manejo de
+          información usando bases de datos relacionales y no relacionales, ademas integrando micro servicios bajo las
+          arquitecutura de <strong>API Rest</strong>, con esto se construyen sistemas de sitos web dinamicos y además
+          aplicando técnicas de maquetación web consumibles desde dispositivos moviles.
+        </p>
+        <p>
+          Me apasiona el futuro y la evolución del mundo por ello me gusta
+          probar cosas nuevas y estar mejorandome a mi mismo y a los demas
+          para alcanzar un futuro mejor.
+        </p>
+      </article>
+
+      <article class="hability-section">
+        <h3 class="title-2">Habilidades</h3>
+        <div class="hability-container">
+          <p><span>Maquetación Web</span><b>100%</b></p>
+          <progress class="hability-progress" min="0" max="100" value="100"></progress>
+        </div>
+
+        <div class="hability-container">
+          <p><span>Bases de Datos</span><b>90%</b></p>
+          <progress class="hability-progress" min="0" max="100" value="90"></progress>
+        </div>
+        <div class="hability-container">
+          <p><span>Back-end</span><b>80%</b></p>
+          <progress class="hability-progress" min="0" max="100" value="80"></progress>
+        </div>
+        <div class="hability-container">
+          <p><span>API Rest</span><b>80%</b></p>
+          <progress class="hability-progress" min="0" max="100" value="80"></progress>
+        </div>
+        <div class="hability-container">
+          <p><span>Angular</span><b>70%</b></p>
+          <progress class="hability-progress" min="0" max="100" value="70"></progress>
+        </div>
+        <div class="hability-container">
+          <p><span>NodeJs</span><b>80%</b></p>
+          <progress class="hability-progress" min="0" max="100" value="80"></progress>
+        </div>
+      </article>
+    </section>
+
+    <!-- Lista de servicios a ofrecer -->
+    <section class="section services" id="servicios">
+      <h2 class="section-title">Te puedo ofrecer</h2>
+      <section class="services-container">
+        <article class="services-service">
+          <img src="assets/circle-info-solid.svg" alt="Información" class="big-icon">
+          <h3 class="title-2">Sistemas de información</h3>
+          <p class="text">
+            Administra los datos de tu negocio en una aplicación web que te permite almacenar, controlar y consultar la
+            información cuando lo necesites.
+          </p>
+        </article>
+        <article class="services">
+          <img src="assets/beutifoul.svg" alt="Persanalization" class="big-icon">
+          <h3 class="title-2">Personalización</h3>
+          <p class="text">
+            Tu eliges la identidad que quieres en tu pagina ya sea colores, estilos, diseños e información, proyecta tu
+            mejor versión.
+          </p>
+        </article>
+        <article class="services">
+          <img src="assets/shield-halved-solid.svg" alt="Security" class="big-icon">
+          <h3 class="title-2">Seguridad</h3>
+          <p class="text">
+            Practicas de desarrollo solidas y aprobadas con validación de datos y mas tecnicas que hacen que tu sitio
+            sea seguro.
+          </p>
+        </article>
+        <article class="services">
+          <img src="assets/clock-solid.svg" alt="Persanalization" class="big-icon">
+          <h3 class="title-2">Nuevo</h3>
+          <p class="text">
+            Programación moderna y sostenible para que tu proyecto se mantenga en el tiempo con tecnologías eficientes.
+          </p>
+        </article>
+
+        <article class="services">
+          <img src="assets/code.svg" alt="Persanalization" class="big-icon">
+          <h3 class="title-2">Manejo de API Rest</h3>
+          <p class="text">
+            Contrucción de API Rest y micro servicios para funcionalidades extra como envio de correo electronicos, SMS
+            entre otros.
+          </p>
+        </article>
+      </section>
+    </section>
+
+    <!-- Proyectos Realizados -->
+    <section class="section works" id="trabajos">
+      <h2 class="section-title">Mis Trabajos</h2>
+
+      <section class="works-container">
+        <article class="work-container" style="--work-image: url('assets/Library_app_frontend.png');">
+          <aside class="work-sub-container">
+            <section class="work">
+              <h3 class="title-2">Libreria Web</h3>
+              <p class="text">
+                Administración de una biblioteca sencilla usando el stack MEAN Con Angular.
+              </p>
+              <a href="https://github.com/jpca123/LibraryAppFrontEnd" target="_blank" rel="noopener noreferrer"
+                class="work-link btn">Visitar</a>
+            </section>
+          </aside>
+        </article>
+        <article class="work-container" style="--work-image: url('assets/Library_app_backend.png');">
+          <aside class="work-sub-container">
+            <section class="work">
+              <h3 class="title-2">API RestFull</h3>
+              <p class="text">
+                API RestFull para administrar el sitio de la biblioteca, construida con NodeJS y Typescript e
+                integración con MongoDB y AngularJS.
+              </p>
+              <a href="https://github.com/jpca123/LibraryAPI" target="_blank" rel="noopener noreferrer"
+                class="work-link btn">Visitar</a>
+            </section>
+          </aside>
+        </article>
+
+        <article class="work-container" style="--work-image: url('assets/ajedrez.png');">
+          <aside class="work-sub-container">
+            <section class="work">
+              <h3 class="title-2">Juego Ajedrez</h3>
+              <p class="text">
+                Juego de ajedrez para dos con todas las reglas, estilos y logica de programación completa. Construido
+                con <b>Html5</b>, <b>Css3</b> y <b>JavaScript</b>
+              </p>
+              <a href="https://jpca123.github.io/ajedrez/" target="_blank" rel="noopener noreferrer"
+                class="work-link btn">Visitar</a>
+            </section>
+          </aside>
+        </article>
+
+        <article class="work-container" style="--work-image: url('assets/proyecto1.png');">
+          <aside class="work-sub-container">
+            <section class="work">
+              <h3 class="title-2">Estadistica Basica</h3>
+              <p class="text">
+                Este sitio crea una tabla de frecuencia basado en una lista de datos numericos que tu le especificas
+              </p>
+              <a href="https://jpca123.github.io/estadistica/" target="_blank" rel="noopener noreferrer"
+                class="work-link btn">Visitar</a>
+            </section>
+          </aside>
+        </article>
+        <article class="work-container" style="--work-image: url('assets/proyecto2.png');">
+          <aside class="work-sub-container">
+            <section class="work">
+              <h3 class="title-2">Reproductor de musica</h3>
+              <p class="text">
+                Pequeño reproductor de musica online para escuchar las canciones de tu dispositivo con controles basicos
+                y es muy facil de usar.
+              </p>
+              <a href="https://jpca123.github.io/music-player/" target="_blank" rel="noopener noreferrer"
+                class="work-link btn">Visitar</a>
+            </section>
+          </aside>
+        </article>
+        <article class="work-container" style="--work-image: url('assets/proyecto3.png');">
+          <aside class="work-sub-container">
+            <section class="work">
+              <h3 class="title-2">Buscador peliculas</h3>
+              <p class="text">
+                Consulta información acerca de tus peliculas y series favoritas online consumiedo la
+                <strong>API</strong> publica de IMDB
+              </p>
+              <a href="https://jpca123.github.io/peliculas" target="_blank" rel="noopener noreferrer"
+                class="work-link btn">Visitar</a>
+            </section>
           </aside>
         </article>
       </section>
+    </section>
 
-      <!-- Presentacion, y barras de habilidad -->
-      <section class="section habilitys" id="acerca" data-scroll-spy>
-        <article class="habilitys-info hability-section">
-          <h3 class="title-2">Juan Pablo Castillo</h3>
-          <h4 class="hability-info-slogan">
-            <strong>Desarrollador web</strong>
-          </h4>
+    <!-- Contacto -->
+    <section class="section contact" id="contacto">
+      <h2 class="section-title">Contacto</h2>
 
+      <section class="contact-cards">
+        <article class="contact-card">
+          <img src="assets/instagram.svg" alt="instagram" class="big-icon">
+          <h3 class="title-2">Instagram</h3>
           <p class="text">
-            Mi nombre es <strong>Juan Pablo Castillo</strong> soy estudiante
-            de programación y desarrollor web, amante de la
-            tecnología como el brazo derecho de la evolución de la humanidad y
-            herramienta al servicio de las personas.
+            <a href="https://www.instagram.com/juanpablocastillo123/" rel="noopener" target="_blank"
+              class="contact-card-link">Perfil instagram</a>
           </p>
+        </article>
+        <article class="contact-card">
+          <img src="assets/facebook.svg" alt="Facebook" class="big-icon">
+          <h3 class="title-2">Facebook</h3>
           <p class="text">
-            Me especializo en desarrollo web en el lado del back-end principalmente, contruyendo sistemas de manejo de información usando bases de datos relacionales y no relacionales, ademas integrando micro servicios bajo las arquitecutura de <strong>API Rest</strong>, con esto se construyen sistemas de sitos web dinamicos y además aplicando técnicas de maquetación web consumibles desde dispositivos moviles.
-          </p>
-          <p>
-            Me apasiona el futuro y la evolución del mundo por ello me gusta
-            probar cosas nuevas y estar mejorandome a mi mismo y a los demas
-            para alcanzar un futuro mejor.
+            <a href="https://www.instagram.com/juanpablo.castillo372/" rel="noopener" target="_blank"
+              class="contact-card-link">Perfil facebook</a>
           </p>
         </article>
 
-        <article class="hability-section">
-          <h3 class="title-2">Habilidades</h3>
-          <div class="hability-container">
-            <p><span>Maquetación Web</span><b>100%</b></p>
-            <progress
-              class="hability-progress"
-              min="0"
-              max="100"
-              value="100"
-            ></progress>
-          </div>
+        <article class="contact-card">
+          <img src="assets/telegram.svg" alt="Telegram" class="big-icon">
+          <h3 class="title-2">Telegram</h3>
+          <p class="text">
+            <a href="https://t.me/Juan_Pablo_Castillo" class="contact-card-link">Chat telegram</a>
+          </p>
+        </article>
+        <article class="contact-card">
+          <img src="assets/linkedin.svg" alt="Linkeding" class="big-icon">
 
-          <div class="hability-container">
-            <p><span>Bases de Datos</span><b>90%</b></p>
-            <progress
-              class="hability-progress"
-              min="0"
-              max="100"
-              value="90"
-            ></progress>
-          </div>
-          <div class="hability-container">
-            <p><span>Back-end</span><b>80%</b></p>
-            <progress
-              class="hability-progress"
-              min="0"
-              max="100"
-              value="80"
-            ></progress>
-          </div>
-          <div class="hability-container">
-            <p><span>API Rest</span><b>80%</b></p>
-            <progress
-              class="hability-progress"
-              min="0"
-              max="100"
-              value="80"
-            ></progress>
-          </div>
-          <div class="hability-container">
-            <p><span>Angular</span><b>70%</b></p>
-            <progress
-              class="hability-progress"
-              min="0"
-              max="100"
-              value="70"
-            ></progress>
-          </div>
-          <div class="hability-container">
-            <p><span>NodeJs</span><b>80%</b></p>
-            <progress
-              class="hability-progress"
-              min="0"
-              max="100"
-              value="80"
-            ></progress>
-          </div>
+          <h3 class="title-2">Linkeding</h3>
+          <p class="text">
+            <a href="https://www.linkedin.com/in/juan-pablo-castillo-acosta" rel="noopener" target="_blank"
+              class="contact-card-link">Juan Pablo Castillo</a>
+          </p>
+        </article>
+        <article class="contact-card">
+          <img src="assets/email.svg" alt="Email" class="big-icon">
+
+          <h3 class="title-2">Email</h3>
+          <p class="text">
+            <a href="mailto:jpca123555@gmail.com" rel="noopener" target="_blank" class="contact-card-link">Correo
+              Electronico</a>
+          </p>
+        </article>
+        <article class="contact-card">
+          <img src="assets/github.svg" alt="Github" class="big-icon">
+          
+          <h3 class="title-2">GitHub</h3>
+          <p class="text">
+            <a href="https://www.github.com/jpca123" rel="noopener" target="_blank" class="contact-card-link">Juan Pablo
+              Castillo</a>
+          </p>
         </article>
       </section>
 
-      <!-- Lista de servicios a ofrecer -->
-      <section class="section services" id="servicios" data-scroll-spy>
-        <h2 class="section-title">Te puedo ofrecer</h2>
-        <section class="services-container">
-          <article class="services-service">
-            <span class="big-icon services-icon material-icons">
-              fast_forward
-            </span>
-            <h3 class="title-2">Sistemas de información</h3>
-            <p class="text">
-              Administra los datos de tu negocio en una aplicación web que te permite almacenar, controlar y consultar la información cuando lo necesites.
-            </p>
-          </article>
-          <article class="services">
-            <span class="big-icon services-icon material-icons">
-              settings
-            </span>
-            <h3 class="title-2">Personalización</h3>
-            <p class="text">
-              Tu eliges la identidad que quieres en tu pagina ya sea colores, estilos, diseños e información, proyecta tu mejor versión.
-            </p>
-          </article>
-          <article class="services">
-            <span class="big-icon services-icon material-icons"> lock </span>
-            <h3 class="title-2">Seguridad</h3>
-            <p class="text">
-              Practicas de desarrollo solidas y aprobadas con validación de datos y mas tecnicas que hacen que tu sitio sea seguro.
-            </p>
-          </article>
-          <article class="services">
-            <span class="big-icon services-icon material-icons">
-              square
-            </span>
-            <h3 class="title-2">Nuevo</h3>
-            <p class="text">
-              Programación moderna y sostenible para que tu proyecto se mantenga en el tiempo con tecnologías eficientes.
-            </p>
-          </article>
-         
-          <article class="services">
-            <span class="big-icon services-icon material-icons"> timer </span>
 
-            <h3 class="title-2">Manejo de API Rest</h3>
-            <p class="text">
-              Contrucción de API Rest y micro servicios para funcionalidades extra como envio de correo electronicos, SMS entre otros.
-            </p>
-          </article>
-        </section>
-      </section>
+      <form action="https://formsubmit.co/jpca123555@gmail.com" method="POST" class="contact-form"
+        id="formulario-contacto">
+        <h3 class="contact-form-title">Contactame</h3>
+        <input type="hidden" name="_subject" value="Mensaje Portafolio Web">
+        <input type="hidden" name="_next" value="https://jpca123.github.io/portafolio">
+        <input name="nombre" type="text" class="contact-form-input" placeholder="Ingresa tu nombre" maxlength="80"
+          minlength="3" required />
+        <input name="correo" type="email" class="contact-form-input" placeholder="Ingresa tu correo" required />
 
-      <!-- Proyectos Realizados -->
-      <section class="section works" id="trabajos" data-scroll-spy>
-        <h2 class="section-title">Mis Trabajos</h2>
+        <textarea name="comentario" cols="30" rows="10" class="contact-form-input contact-message"
+          placeholder="Deja tus comentarios" minlength="5" maxlength="500" required></textarea>
 
-        <section class="works-container">
-          <article class="work-container" style="--work-image: url('assets/Library_app_frontend.png');">
-            <aside class="work-sub-container">
-              <section class="work">
-                <h3 class="title-2">Libreria Web</h3>
-                <p class="text">
-                  Administración de una biblioteca sencilla usando el stack MEAN Con Angular.
-                </p>
-                <a
-                  href="https://jpca123.github.io/estadistica/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="work-link btn"
-                  >Visitar</a
-                >
-              </section>
-            </aside>
-          </article>          
-          <article class="work-container" style="--work-image: url('assets/Library_app_backend.png');">
-            <aside class="work-sub-container">
-              <section class="work">
-                <h3 class="title-2">API RestFull</h3>
-                <p class="text">
-                  API RestFull para administrar el sitio de la biblioteca, construida con NodeJS y Typescript e integración con MongoDB y AngularJS.
-                </p>
-                <a
-                  href="https://jpca123.github.io/estadistica/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="work-link btn"
-                  >Visitar</a
-                >
-              </section>
-            </aside>
-          </article>
+        <button class="btn">Enviar Mensaje</button>
+      </form>
+    </section>
+  </main>
 
-          <article class="work-container" style="--work-image: url('assets/proyecto1.png');">
-            <aside class="work-sub-container">
-              <section class="work">
-                <h3 class="title-2">Estadistica Basica</h3>
-                <p class="text">
-                  Este sitio crea una tabla de frecuencia basado en una lista de datos numericos que tu le especificas
-                </p>
-                <a
-                  href="https://jpca123.github.io/estadistica/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="work-link btn"
-                  >Visitar</a
-                >
-              </section>
-            </aside>
-          </article>
-          <article class="work-container" style="--work-image: url('assets/proyecto2.png');">
-            <aside class="work-sub-container">
-              <section class="work">
-                <h3 class="title-2">Reproductor de musica</h3>
-                <p class="text">
-                  Pequeño reproductor de musica online para escuchar las canciones de tu dispositivo con controles basicos y es muy facil de usar.
-                </p>
-                <a
-                  href="https://jpca123.github.io/music-player/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="work-link btn"
-                  >Visitar</a
-                >
-              </section>
-            </aside>
-          </article>
-          <article class="work-container" style="--work-image: url('assets/proyecto3.png');">
-            <aside class="work-sub-container">
-              <section class="work">
-                <h3 class="title-2">Buscador peliculas</h3>
-                <p class="text">
-                  Consulta información acerca de tus peliculas y series favoritas online consumiedo la <strong>API</strong> publica de IMDB
-                </p>
-                <a
-                  href="https://jpca123.github.io/peliculas"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="work-link btn"
-                  >Visitar</a
-                >
-              </section>
-            </aside>
-          </article>
-        </section>
-      </section>
+  <!-- Fin de la pagina -->
+  <footer class="footer">
+    <p class="footer-info">Diseñado por : Juan Pablo Castillo ©</p>
+  </footer>
 
-      <!-- Contacto -->
-      <section class="section contact" id="contacto" data-scroll-spy>
-        <h2 class="section-title">Contacto</h2>
+  <script src="script.js"></script>
+</body>
 
-        <section class="contact-cards">
-          <article class="contact-card">
-            <span class="big-icon services-icon material-icons">
-                tag
-              </span>
-            <h3 class="title-2">Instagram</h3>
-            <p class="text">
-              <a href="https://www.instagram.com/juanpablocastillo123/" rel="noopener" target="_blank" class="contact-card-link">Perfil instagram</a>
-            </p>
-          </article>
-          <article class="contact-card">
-            <span class="big-icon services-icon material-icons">
-                contact_mail
-              </span>
-            <h3 class="title-2">Email</h3>
-            <p class="text">
-              <a href="mailto:jpca123555@gmail.com" rel="noopener" target="_blank" class="contact-card-link">Correo Electronico</a>
-            </p>
-          </article>
-          <article class="contact-card">
-            <span class="big-icon services-icon material-icons">
-                telegram
-              </span>
-            <h3 class="title-2">Telegram</h3>
-            <p class="text">
-              <a href="https://t.me/Juan_Pablo_Castillo" class="contact-card-link">Chat telegram</a>
-            </p>
-          </article>
-          <article class="contact-card">
-            <span class="big-icon services-icon material-icons">
-                work
-              </span>
-            <h3 class="title-2">Linkeding</h3>
-            <p class="text">
-              <a href="https://www.linkedin.com/in/juan-pablo-castillo-acosta" rel="noopener" target="_blank" class="contact-card-link">Juan Pablo Castillo</a>
-            </p>
-          </article>
-        </section>
-
-        <form action="https://formsubmit.co/jpca123555@gmail.com" method="POST" class="contact-form" id="formulario-contacto">
-          <h3 class="contact-form-title">Contactame</h3>
-          <input type="hidden" name="_subject" value="Mensaje Portafolio Web">
-          <input type="hidden" name="_next" value="https://jpca123.github.io/portafolio">
-          <input
-            name="nombre"
-            type="text"
-            class="contact-form-input"
-            placeholder="Ingresa tu nombre"
-            maxlength="80"
-            minlength="3"
-            required
-          />
-          <input
-            name="correo"
-            type="email"
-            class="contact-form-input"
-            placeholder="Ingresa tu correo"
-            required
-          />
-
-          <textarea
-            name="comentario"
-            cols="30"
-            rows="10"
-            class="contact-form-input contact-message"
-            placeholder="Deja tus comentarios"
-            minlength="5"
-            maxlength="500"
-            required
-          ></textarea>
-
-          <button class="btn">Enviar Mensaje</button>
-        </form>
-      </section>
-    </main>
-
-    <!-- Fin de la pagina -->
-    <footer class="footer">
-      <p class="footer-info">Diseñado por : Juan Pablo Castillo ©</p>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
 </html>

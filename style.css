@@ -91,6 +91,7 @@
     text-align: center;
     font-size: 2em;
     font-weight: bold;
+    max-width: 2em;
     color: var(--primary-color);
     margin: 1em auto .5em;
   }
@@ -200,7 +201,7 @@
     .contact-cards{
       display: grid;
       justify-content: space-around;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       margin: 0 auto;
       gap: 1em;
     
